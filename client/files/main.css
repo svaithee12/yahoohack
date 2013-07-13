@@ -1,0 +1,302 @@
+root {
+    display: block;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+    font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+    font-size: 13px;
+}
+
+.bold{
+    color: #3b5998;
+}
+
+a{
+    color: #3b5998
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+input[type="button"], input[type="submit"]{
+    background-color: #5b74a8;
+    border-color: #29447e #29447e #1a356e;
+    border-width: 1px;
+
+    color: #fff;
+    font-weight: bold;
+
+    padding: 3px 16px;
+}
+
+textArea, input[type="text"], select{
+    padding: 3px;
+}
+
+.contentbody{
+    width: 100%;
+    height: 100%;
+}
+
+#top .contentbody, #middle .contentbody, #bottom .contentbody{
+    max-width: 1024px;
+    margin: auto;
+}
+
+#top{
+    width: 100%;
+    height: 50px;
+    max-height: 100px;
+
+    background-color: #5b74a8;
+    border-bottom: 1px solid #133783;
+    color: white;
+    font-weight: bold;
+
+    margin: auto;
+}
+
+    #logo{
+        background-image: url('../images/logo.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+
+        display: none;
+
+        width: 50px;
+        height: 50px;
+        margin: 0px;
+        float: left;
+    }
+
+    #title{
+        padding: 10px 10px;
+        float: left;
+        font-size: 27px;
+        font-weight: bold;
+    }
+
+#middle{
+    width: 100%;
+    height: 100%;
+
+    min-height: 300px;
+
+    margin: auto;
+
+    background-color: #edf0f5;
+}
+
+    #left{
+        width: 25%;
+        height: 100%;
+
+        float: left;
+        border-right: 1px solid #133783;
+    }
+
+
+
+    #right{
+        width: 75%;
+        height: 100%;
+
+        margin-left:25%;
+    }
+
+        #map{
+            height: 30%;
+        }
+
+        #main{
+            height: 70%;
+        }
+
+        textarea.message{
+            width: 100%;
+            height: 70px;
+        }
+
+#bottom{
+    width: 100%;
+    height: 50px;
+
+    text-align: center;
+
+    margin: auto;
+
+    background-color: #f2f2f2;
+    border-top: 1px solid #e6e6e6;
+}
+
+
+.content{
+    padding: 5px;
+    /* border: 1px solid blue; */
+}
+
+.templates{
+    display: none;
+}
+
+.overflow_hidden{
+    overflow: hidden;
+}
+
+.overflow_y_auto{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+ul.vnav{
+    list-style-type:none;
+    margin:0;
+    padding:2%;
+}
+
+ul.vnav li{
+    padding:5px;
+
+    font-weight: bold;
+}
+
+ul.vnav li a{
+    text-decoration: none;
+}
+
+ul.hnav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+ul.hnav li{
+    padding:5px;
+    display: inline;
+}
+
+ul.hnav li a{
+    text-decoration: none;
+}
+
+.actionable{
+    padding:2px;
+}
+
+.actionable a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.smallicon{
+    width: 16px;
+    height: 16px;
+    float: left;
+
+    margin-right: 5px;
+    background-size: contain;
+}
+
+.avator_medium{
+    width: 35px;
+    height: 37px;
+    float: left;
+
+    margin-right: 5px;
+    background-image: url('/images/avator_medium.jpg');
+    background-size: contain;
+}
+
+.hidden{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
+
+.errormessage .content{
+    padding: 10px;
+    font-style: italic;
+}
+
+.success{
+    color: green;
+}
+
+.error{
+    color: red;
+}
+
+.warning{
+    color: orange;
+}
+
+.userinfo{
+    padding: 3%;
+    border: 1px solid lightgray;
+}
+
+.userinfo .details .username{
+    font-size: 14px;
+}
+
+.userHelpRequest input[type="submit"]{
+    float: right;
+}
+
+
+.userHelpNotification{
+    padding: 5px;
+}
+
+.userHelpNotification .titlerow, .userHelpNotification .message{
+    margin-bottom: 5px;
+}
+
+.userHelpNotification .titlerow .actionable{
+    display: inline;
+}
+
+.userHelpNotification .message{
+    color: gray;
+    padding: 10px;
+    margin-left: 12px;
+}
+
+.userHelpNotification .information{
+    float: right;
+}
+
+.userHelpNotification .information div {
+    float: left;
+    padding: 5px;
+
+    font-style: italic;
+}
+
+.userHelpNotification .type, .userHelpNotification .status{
+    text-transform:capitalize;
+}
+
+.userHelpNotification .actions{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.userHelpNotification .replies{
+
+}
+
+.title{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 2px;
+}
